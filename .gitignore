@@ -48,3 +48,8 @@ po/*~
 
 # RStudio Connect folder
 rsconnect/
+
+
+# Yelp dataset files to exclude from GitHub
+data/raw/
+data/new_orleans/reviews_filtered.json
