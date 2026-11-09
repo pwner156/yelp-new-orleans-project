@@ -1,4 +1,3 @@
-
 # Project 2: New Orleans Cajun/Creole and Seafood Restaurants
 #
 # Main focus: Cajun/Creole and Seafood
