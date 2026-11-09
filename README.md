@@ -35,3 +35,19 @@ The original Yelp JSON files are too large to upload to GitHub, so they are stor
 The filtered datasets are saved as compressed RDS files to reduce storage requirements and make them easier to load in R.
 
 To reproduce the data preparation process, download the original Yelp dataset, place the business and review JSON files in `data/raw/`, and run `R/01_prepare_data.R`.
+
+## Project 2: Geographic Analysis of New Orleans Restaurants
+
+### Research Focus
+
+My project focuses primarily on **Cajun/Creole and Seafood restaurants in New Orleans, Louisiana**, with Southern cuisine included as a third related category.
+
+I chose New Orleans because of its distinctive food culture and strong connection to Cajun/Creole cooking and seafood dishes.
+
+My research question is:
+
+**Which geographic areas of New Orleans have the highest-rated Cajun/Creole and Seafood restaurants, and how do restaurant counts and ratings differ across those areas?**
+
+For the geographic analysis, I compared ZIP Code Tabulation Areas (ZCTAs) with census tracts. I selected **ZCTAs** because they provide more useful restaurant groupings, with fewer areas containing very small numbers of restaurants.
+
+The current geographic comparison includes all three related restaurant categories: Cajun/Creole, Seafood, and Southern.
